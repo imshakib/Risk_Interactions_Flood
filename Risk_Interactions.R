@@ -24,7 +24,7 @@
 ##==============================================================================
 
 rm(list=ls())
-dev.off()
+graphics.off()
 
 # Packages used
 library(VGAM)
