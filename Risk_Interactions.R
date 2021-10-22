@@ -1,6 +1,6 @@
 ##==============================================================================
 ##
-## Script creates conceptual graphs to show interactions among flood risk hazard, 
+## Script creates conceptual graphs to show interactions among flood hazard, 
 ## exposure, and risk
 ##
 ## Authors: Iman Hosseini-Shakib (ishakib@gmail.com)
