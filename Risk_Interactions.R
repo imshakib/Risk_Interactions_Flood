@@ -3,10 +3,10 @@
 ## Script creates conceptual graphs to show interactions among flood risk hazard, 
 ## exposure, and risk
 ##
-## Authors: Iman Hosseini-Shakib (ikh5084@psu.com)
+## Authors: Iman Hosseini-Shakib (ishakib@gmail.com)
 ##          Klaus Keller (kzk10@psu.edu)
 ## Recoded by: Vivek Srikrishnan (vs498@cornell.edu)
-##       
+## Code verification: Matthew Lisk (mdl5548@psu.edu)     
 ##==============================================================================
 ## Copyright 2021 Iman Hosseini-Shakib and Klaus Keller
 ## This file is free software: you can redistribute it and/or modify
