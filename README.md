@@ -6,14 +6,14 @@ https://figshare.com/articles/figure/Risk_Interactions_2/14175395
 
 The code doesn't require input data to run. It generates random inputs for the plots.
 R Packages used in this code are as follows:
-1- VGAM used to create random data on a skewed normal distribution curve
-2- ggplot2 used to create the plots
-3- ggpubr used to arrange different plots
-4- ggExtra used to create the diagnostic plot of marginal densities
-to install packages in R use the command:
-install.packages("package name")
+1- "VGAM" used to create random data on a skewed normal distribution curve
+2- "ggplot2" used to create the plots
+3- "ggpubr" used to arrange different plots, and 
+4- "ggExtra" used to create the diagnostic plot of marginal densities.
+To install packages in R use the command: 
+install.packages("package name") 
 
-For questions, comments, feedback, and any concerns, please email Iman Hosseini-Shakib at ishakib@gmail.com
+For questions, comments, feedback, or any concerns, please email Iman Hosseini-Shakib at ishakib@gmail.com
 
  Authors: Iman Hosseini-Shakib (ishakib@gmail.com)
           Klaus Keller (kzk10@psu.edu)
