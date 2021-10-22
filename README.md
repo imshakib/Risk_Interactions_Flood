@@ -1,6 +1,6 @@
 # Risk_Interactions
-Coding hypothetical graphs to show how accounting for climate change and uncertainty in flood hazard and levee effect in flood exposure would impact flood risk pdfs and expected values.
-Script creates conceptual graphs to show interactions among flood risk hazard, exposure, and risk.
+Coding hypothetical graphs to show how accounting for climate change and uncertainty in flood hazard, and levee effect in flood exposure would impact flood risk pdfs and expected values.
+Script creates conceptual graphs to show interactions among flood hazard, exposure, and risk.
 The output of this code is stored on Figshare at:
 https://figshare.com/articles/figure/Risk_Interactions_2/14175395
 
