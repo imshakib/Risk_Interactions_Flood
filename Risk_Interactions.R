@@ -27,6 +27,10 @@ rm(list=ls())
 graphics.off()
 
 # Packages used
+if (!require('VGAM')) {install.package('VGAM')}
+if (!require('ggplot2')) {install.package('ggplot2')}
+if (!require('ggpubr')) {install.package('ggpubr')}
+if (!require('ggExtra')) {install.package('ggExtra')}
 library(VGAM)
 library(ggplot2)
 library(ggpubr)
