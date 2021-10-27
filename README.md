@@ -24,6 +24,12 @@ For questions, comments, feedback, or any concerns, please email Iman Hosseini-S
           Klaus Keller (kzk10@psu.edu)
  Recoded by: Vivek Srikrishnan (vs498@cornell.edu)
  Code verification: Matthew Lisk (mdl5548@psu.edu)
+ 
+ Possible Issues:
+ 
+ This code has been tested on Windows and Mac local machines as well as the Penn State HPC system including ROAR and Firkin, as well as an Ubuntu Singularity. 
+ - A reported issue was that the installation of the "ggpubr" package produced some errors on the Linux machines due to a configuration issue with finding 'libcurl'. The "ggarrange" command is used from the "ggpubr"in the code.
+ - It is recommended that you run the code on high-performance computation facilities. You might encounter a resource issue while running the code on local machines or while trying to open the plot in the pdf format. The pdf plot might be unable to be viewed in its entirety on some Mac and Win10 machines with any of the pdf viewers used as a matter of resource issues. When the files are clicked on, the viewer window would open. After a few minutes parts of plots would appear, but then the viewers would stop responding. You might e able to find a work around on these machines, by importing the pdf into GIMP (https://www.gimp.org/), but even that import process might take around 5-10 minutes. 
        
  Copyright 2021 Iman Hosseini-Shakib and Klaus Keller
  This file is free software: you can redistribute it and/or modify
