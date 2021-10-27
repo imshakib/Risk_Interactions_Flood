@@ -185,7 +185,7 @@ c<-ggplot(dat_all,aes(x=dmg, group=group))+
 
 # Organizing plots
 figure1 <- ggarrange(b,c,a,
-                     labels = c(" b) Exposure Effect","   c) Risk","  a) Hazard"),
+                     labels = c("b) Exposure Effect","   c) Risk","  a) Hazard"),
                      font.label = list(size = 18),
                      vjust =1.5, hjust =-.3,
                      ncol = 2, nrow = 2) 
