@@ -25,7 +25,7 @@ For questions, comments, feedback, or any concerns, please email Iman Hosseini-S
  Recoded by: Vivek Srikrishnan (vs498@cornell.edu)
  Code verification: Matthew Lisk (mdl5548@psu.edu)
  
- Possible Issues:
+ # Possible Issues:
  
  This code has been tested on Windows and Mac local machines as well as the Penn State HPC system including ROAR and Firkin, as well as an Ubuntu Singularity. 
  - A reported issue was that the installation of the "ggpubr" package produced some errors on the Linux machines due to a configuration issue with finding 'libcurl'. The "ggarrange" command is used from the "ggpubr"in the code.
