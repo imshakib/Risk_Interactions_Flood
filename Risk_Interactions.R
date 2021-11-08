@@ -2,6 +2,8 @@
 ##
 ## Script creates conceptual graphs to show interactions among flood hazard, 
 ## exposure, and risk
+## All the values in this plot such as water levels, levee effect coefficient, logistic function
+## and its parameters, etc. are hypothetical and to convey a concept.
 ##
 ## Authors: Iman Hosseini-Shakib (ishakib@gmail.com)
 ##          Klaus Keller (kzk10@psu.edu)
@@ -73,8 +75,8 @@ dat_nonstat_nolevee <- data.frame(wl=wl_nonstat_samp, dmg=rsk_nonstat_nolevee, g
 dat_nonstat_levee <- data.frame(wl=wl_nonstat_samp, dmg=rsk_nonstat_levee, group='nonstat_levee')
 dat_all <- rbind(dat_stat_nolevee, dat_nonstat_nolevee, dat_nonstat_levee)
 
-dat_dmg_nolevee <- data.frame(wl=WL, dmg=dmg_nolevee[WL], group="nolevee")
-dat_dmg_levee <- data.frame(wl=WL, dmg=dmg_levee[WL], group="levee")
+dat_dmg_nolevee <- data.frame(wl=WL, dmg=dmg_nolevee, group="nolevee")
+dat_dmg_levee <- data.frame(wl=WL, dmg=dmg_levee, group="levee")
 dat_dmg_all <- rbind(dat_dmg_nolevee, dat_dmg_levee)
   
 # diagnostic plot
